@@ -1,46 +1,46 @@
-/* ============================================= */
-/*              Colors                   */
-/* ============================================= */
 //Descriptive color variables
-$grey: #777;
-$white: #fff; 
-$turquoise: #58e1c1;
-$maya-blue: #51ddfc;
-$light-grey: #ccc;
+$grey : #777;
+$white : #fff; 
+$turquoise : #58e1c1;
+$maya-blue : #51ddfc;
+$light-grey : #ccc;
 $black : #000;
 
 //Functional color variables
-$color-prim: $turquoise;
-$color-sec: $maya-blue;
+$color-prim : $turquoise;
+$color-sec : $maya-blue;
 
-$color-text-light: $white;
-$color-text-base: $grey;
-$color-text-dark: $black;
-$color-text-prim: $turquoise;
-$color-text-sec: $maya-blue;
-
-
-$color-link-default: $grey;
-$color-link-hover: $white;
-$color-link-prim: $turquoise;
-$color-link-sec: $maya-blue;
-
-$color-border-light: $light-grey;
-$color-border-prim: $turquoise;
-$color-border-sec: $maya-blue;
+$color-text-light : $white;
+$color-text-base : $grey;
+$color-text-dark : $black;
+$color-text-prim : $turquoise;
+$color-text-sec : $maya-blue;
 
 
-/* ============================================= */
-/*              Breakpoints                  */
-/* ============================================= */
-$breakpoint-md: 768px;
+$color-link-default : $grey;
+$color-link-hover : $white;
+$color-link-prim : $turquoise;
+$color-link-sec : $maya-blue;
 
-/* ============================================= */
-/*              Font                 */
-/* ============================================= */
-$font-stack-primary: 'Lato', sans-serif;
+$color-border-light : $light-grey;
+$color-border-prim : $turquoise;
+$color-border-sec : $maya-blue;
 
-/* ============================================= */
-/*             Sizes                           */
-/* ============================================= */
+//Font stacks   
+$stack-sans-serif : sans-serif;
+$stack-lato : 'Lato', $stack-sans-serif;
+
+//Border radius   
+$br : 5px;
+
+//Asset paths  
+$path-img : '../img';
+
+//Breakpoints
+$breakpoint-md : 768px;
+
+//Percentage Values
 $hover-lighten-percent: 10%;
+
+//Columns   
+$total-cols: 12;
