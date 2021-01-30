@@ -5,6 +5,17 @@ $turquoise : #58e1c1;
 $maya-blue : #51ddfc;
 $light-grey : #ccc;
 $black : #000;
+$froly-red : #e4757a;
+$lilac-bush-purple : #927bc1;
+$emerald-green : #63cc82;
+$coral-orange : #FD7856;
+$wisteria-violet : #deb2ee;
+$electric-blue : #7ee6fd;
+$granny-smith-apple-green : #88d9a0;
+$boston-blue : #4DA2BB;
+$wax-flower-orange : #ec9fa3;
+$mona-lisa-red : #fd9f85;
+$turquoise-blue : #80E8D1;
 
 //Functional color variables
 $color-prim : $turquoise;
@@ -25,6 +36,25 @@ $color-link-sec : $maya-blue;
 $color-border-light : $light-grey;
 $color-border-prim : $turquoise;
 $color-border-sec : $maya-blue;
+
+$color-button-default : $maya-blue;
+$color-button-error : $froly-red;
+$color-button-info : $lilac-bush-purple;
+$color-button-success : $emerald-green;
+$color-button-warning : $coral-orange;
+
+$color-column-background1 : $lilac-bush-purple;
+$color-column-background2 : $coral-orange;
+$color-column-background3 : $wisteria-violet;
+$color-column-background4 : $electric-blue;
+$color-column-background5 : $granny-smith-apple-green;
+$color-column-background6 : $boston-blue;
+$color-column-background7 : $wax-flower-orange;
+$color-column-background8 : $mona-lisa-red;
+$color-column-background9 : $froly-red;
+$color-column-background10 : $emerald-green;
+$color-column-background11 : $maya-blue;
+$color-column-background12 : $turquoise-blue;
 
 //Font stacks   
 $stack-sans-serif : sans-serif;

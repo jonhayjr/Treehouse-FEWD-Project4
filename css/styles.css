@@ -418,7 +418,7 @@ a {
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: #FD7856;
 }
 
 .theme.col-3 {
@@ -434,7 +434,7 @@ a {
 }
 
 .theme.col-6 {
-  background-color: #4da2bb;
+  background-color: #4DA2BB;
 }
 
 .theme.col-7 {
@@ -458,7 +458,7 @@ a {
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
+  background-color: #80E8D1;
 }
 
 .card {
@@ -531,7 +531,7 @@ a {
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: #FD7856;
 }
 .warning:hover {
   background-color: #feb4a2;

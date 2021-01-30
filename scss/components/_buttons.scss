@@ -14,42 +14,42 @@
   }
   
   .default {
-    background-color: $color-sec;
+    background-color: $color-button-default;
     @extend %btn;
     &:hover {
-      background-color: lighten($color-sec, $hover-lighten-percent);
+      background-color: lighten($color-button-default, $hover-lighten-percent);
     }
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $color-button-error;
     @extend %btn;
     &:hover {
-      background-color: lighten(#e4757a, $hover-lighten-percent);
+      background-color: lighten($color-button-error, $hover-lighten-percent);
     }
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $color-button-info;
     @extend %btn;
     &:hover {
-      background-color: lighten(#927bc1, $hover-lighten-percent);
+      background-color: lighten($color-button-info, $hover-lighten-percent);
     }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $color-button-success;
     @extend %btn;
     &:hover {
-      background-color: lighten(#63cc82, $hover-lighten-percent);
+      background-color: lighten($color-button-success, $hover-lighten-percent);
     }
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $color-button-warning;
     @extend %btn;
     &:hover {
-      background-color: lighten(#fd7856, $hover-lighten-percent);
+      background-color: lighten($color-button-warning, $hover-lighten-percent);
     }
   }
   
