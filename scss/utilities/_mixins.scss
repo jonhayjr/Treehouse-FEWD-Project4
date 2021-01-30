@@ -1,0 +1,14 @@
+//Flex        
+@mixin flex {
+    display: flex;
+}
+//Block
+@mixin block {
+    display: block;
+}
+
+//Center 
+@mixin center {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -2,10 +2,10 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+%btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $white;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
@@ -13,22 +13,42 @@
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $theme-color-secondary;
+    @extend %btn;
+    &:hover {
+      background-color: lighten($theme-color-secondary, $hover-lighten-percent);
+    }
   }
   
   .error {
     background-color: #e4757a;
+    @extend %btn;
+    &:hover {
+      background-color: lighten(#e4757a, $hover-lighten-percent);
+    }
   }
   
   .info {
     background-color: #927bc1;
+    @extend %btn;
+    &:hover {
+      background-color: lighten(#927bc1, $hover-lighten-percent);
+    }
   }
   
   .success {
     background-color: #63cc82;
+    @extend %btn;
+    &:hover {
+      background-color: lighten(#63cc82, $hover-lighten-percent);
+    }
   }
   
   .warning {
     background-color: #fd7856;
+    @extend %btn;
+    &:hover {
+      background-color: lighten(#fd7856, $hover-lighten-percent);
+    }
   }
   

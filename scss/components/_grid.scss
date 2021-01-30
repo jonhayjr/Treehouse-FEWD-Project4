@@ -7,7 +7,7 @@
   }
   
   .row {
-    display: flex;
+    @include flex;
     flex-direction: column;
     padding: 1em 10px;
   }
@@ -61,7 +61,7 @@
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $theme-color-secondary;
   }
   
   .theme.col-12 {

@@ -1,17 +1,17 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
 
   .container {
     max-width: 1400px;
-    display: block;
+    @include block;
     margin-left: auto;
     margin-right: auto;
   }
   
   .centered {
-    display: block;
+    @include block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -21,7 +21,7 @@
   }
   
   [class^=col] {
-    display: flex;
+    @include flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;

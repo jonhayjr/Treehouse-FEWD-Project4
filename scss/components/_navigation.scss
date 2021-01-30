@@ -5,7 +5,7 @@
 .nav {
     padding-left: 0;
     flex-basis: 100%;
-    display: flex;
+    @include flex;
     flex-direction: column;
   }
   
@@ -13,15 +13,14 @@
     text-align: center;
     border-radius: 5px;
     padding: 10px 0;
-    display: block;
+    @include block;
     width: 100%;
     transition: 
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
-  }
-  
-  .nav-link:hover {
-    color: $white;
-    background-color: #58e1c1;
+      &:hover {
+        color: $white;
+        background-color: $theme-color-primary;
+      }
   }
   

@@ -2,5 +2,26 @@
 /*              Colors                   */
 /* ============================================= */
 $font-color-primary: #777; /*gray*/
-$white: #fff;
-$theme-color-primary: #58e1c1;
+$white: #fff; /*white*/
+$theme-color-primary: #58e1c1; /*turquoise*/
+$theme-color-secondary: #51ddfc; /*light blue*/
+$border-gray: #ccc; /*gray*/
+
+//Button Backgrounds   
+
+
+
+/* ============================================= */
+/*              Breakpoints                  */
+/* ============================================= */
+$breakpoint-md: 768px;
+
+/* ============================================= */
+/*              Font                 */
+/* ============================================= */
+$font-stack-primary: 'Lato', sans-serif;
+
+/* ============================================= */
+/*             Sizes                           */
+/* ============================================= */
+$hover-lighten-percent: 10%;
