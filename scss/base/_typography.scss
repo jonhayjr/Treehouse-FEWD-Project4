@@ -4,7 +4,7 @@
 
 * {
     font-family: $font-stack-primary;
-    color: $font-color-primary;
+    color: $color-text-base;
     box-sizing: border-box;
   }
   
@@ -20,19 +20,20 @@
   /* ============================================= */
   /*              Typography                       */
   /* ============================================= */
-  
-  .headline-primary {
-    color: $theme-color-primary;
-    margin-left: 10px;
-  }
-  
-  .headline-secondary {
-    font-weight: 300;
-    color: $font-color-primary;
+  .headline {
+    &-primary {
+      color: $color-text-prim;
+      margin-left: 10px;
+    }
+    
+    &-secondary {
+      font-weight: 300;
+      color: $color-text-base;
+    }
   }
   
   .link {
-    color: $theme-color-secondary;
+    color: $color-link-sec;
     font-weight: 700;
   }
   
@@ -42,7 +43,7 @@
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid $theme-color-primary;
+    border-left: 8px solid $color-border-prim;
     border-radius: 5px;
   }
   

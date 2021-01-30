@@ -19,8 +19,8 @@
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
       &:hover {
-        color: $white;
-        background-color: $theme-color-primary;
+        color: $color-link-hover;
+        background-color: $color-prim;
       }
   }
   

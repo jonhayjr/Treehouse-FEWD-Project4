@@ -7,11 +7,6 @@
 /* ============================================= */
 /*              Colors                   */
 /* ============================================= */
-/*gray*/
-/*white*/
-/*turquoise*/
-/*light blue*/
-/*gray*/
 /* ============================================= */
 /*              Breakpoints                  */
 /* ============================================= */
@@ -386,7 +381,6 @@ a {
   color: #58e1c1;
   margin-left: 10px;
 }
-
 .headline-secondary {
   font-weight: 300;
   color: #777;
@@ -509,21 +503,19 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-.img-avatar {
+.img-frame, .img-avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
+}
+
+.img-avatar {
   max-height: 100%;
 }
 
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
   padding: 13px;
   border: 1px solid #ccc;
 }

@@ -1,24 +1,24 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+%img {
+  @include block;
+  @include center;
+  margin-top: 10px;
+  max-width: 100%;
+}
 .img-avatar {
-    @include block;
-    @include center;
-    margin-top: 10px;
-    max-width: 100%; 
-    max-height: 100%;
-  }
-  
-  .img-frame {
-    @include block;
-    @include center;
-    margin-top: 10px;
-    max-width: 100%;
-    padding: 13px;
-    border: 1px solid $border-gray;
-  }
-  
-  .img-logo {
-    @include block;
-    @include center;
-  }
+  @extend %img;
+  max-height: 100%;
+}
+
+.img-frame {
+  @extend %img;
+  padding: 13px;
+  border: 1px solid $color-border-light;
+}
+
+.img-logo {
+  @include block;
+  @include center;
+}

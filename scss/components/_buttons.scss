@@ -13,10 +13,10 @@
   }
   
   .default {
-    background-color: $theme-color-secondary;
+    background-color: $color-sec;
     @extend %btn;
     &:hover {
-      background-color: lighten($theme-color-secondary, $hover-lighten-percent);
+      background-color: lighten($color-sec, $hover-lighten-percent);
     }
   }
   
