@@ -30,9 +30,9 @@
   }
   
   // Loop to create classes for 12 columns and create flex basis
-    @for $i from 1 through $total-cols {
+    @for $i from 1 through $grid-cols {
     .col-#{$i} {
-      flex-basis: percent($i, $total-cols);
+      flex-basis: percent($i, $grid-cols);
     }
 }
 
