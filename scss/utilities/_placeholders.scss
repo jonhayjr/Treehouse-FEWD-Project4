@@ -1,0 +1,7 @@
+//Image
+%img {
+    @include block;
+    @include center;
+    margin-top: 10px;
+    max-width: 100%;
+  }

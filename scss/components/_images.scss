@@ -1,12 +1,6 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-%img {
-  @include block;
-  @include center;
-  margin-top: 10px;
-  max-width: 100%;
-}
 .img-avatar {
   @extend %img;
   max-height: 100%;

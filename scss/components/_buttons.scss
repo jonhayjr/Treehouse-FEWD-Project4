@@ -1,53 +1,47 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: $br;
+  transition: background-color 0.2s ease-in-out;
+}
 
-%btn {
-    margin-top: 15px;
-    width: 100%;
-    color: $white;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: $br;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .default {
+.default {
     background-color: $color-button-default;
-    @extend %btn;
     &:hover {
       background-color: lighten($color-button-default, $hover-lighten-percent);
     }
   }
   
-  .error {
+.error {
     background-color: $color-button-error;
-    @extend %btn;
     &:hover {
       background-color: lighten($color-button-error, $hover-lighten-percent);
     }
   }
   
-  .info {
+.info {
     background-color: $color-button-info;
-    @extend %btn;
     &:hover {
       background-color: lighten($color-button-info, $hover-lighten-percent);
     }
   }
   
-  .success {
+.success {
     background-color: $color-button-success;
-    @extend %btn;
     &:hover {
       background-color: lighten($color-button-success, $hover-lighten-percent);
     }
   }
   
-  .warning {
+.warning {
     background-color: $color-button-warning;
-    @extend %btn;
     &:hover {
       background-color: lighten($color-button-warning, $hover-lighten-percent);
     }
