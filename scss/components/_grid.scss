@@ -20,11 +20,53 @@
     border-radius: $br;
   }
 
-//Creates grid column classes and unique background colors
-  .theme {
-    @include grid-bg-colors($grid-column-colors);
-}
+  .theme.col-1 {
+    background-color: $color-column-background1;
+  }
 
+  .theme.col-2 {
+    background-color: $color-column-background2;
+  }
+
+  .theme.col-3 {
+    background-color: $color-column-background3;
+  }
+
+  .theme.col-4 {
+    background-color: $color-column-background4;
+  }
+
+  .theme.col-5 {
+    background-color: $color-column-background5;
+  }
+
+  .theme.col-6 {
+    background-color: $color-column-background6;
+  }
+
+  .theme.col-7 {
+    background-color: $color-column-background7;
+  }
+
+  .theme.col-8 {
+    background-color: $color-column-background8;
+  }
+
+  .theme.col-9 {
+    background-color: $color-column-background9;
+  }
+
+  .theme.col-10 {
+    background-color: $color-column-background10;
+  }
+
+  .theme.col-11 {
+    background-color: $color-column-background11;
+  }
+
+  .theme.col-12 {
+    background-color: $color-column-background12;
+  }
 
   .card {
     flex-basis: 100%;

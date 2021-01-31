@@ -13,11 +13,3 @@
     margin-right: auto;
 }
 
-//Grid Column Background Colors       
-@mixin grid-bg-colors($grid-col-map) {
-    @each $col-class, $bg-color in $grid-col-map{
-      &.col-#{$col-class}{
-        background-color: $bg-color;   
-      }
-    }
-  }
