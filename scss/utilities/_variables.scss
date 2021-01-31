@@ -69,5 +69,21 @@ $breakpoint-md : 768px;
 //Percentage Values
 $hover-lighten-percent: 15%;
 
-//Columns   
+//Grid Columns 
 $grid-cols: 12;
+
+//Grid Column Colors Map
+$grid-column-colors: (
+    1: $color-column-background1,
+    2: $color-column-background2,
+    3: $color-column-background3,
+    4: $color-column-background4,
+    5: $color-column-background5,
+    6: $color-column-background6,
+    7: $color-column-background7,
+    8: $color-column-background8,
+    9: $color-column-background9,
+    10: $color-column-background10,
+    11: $color-column-background11,
+    12: $color-column-background12,
+);
